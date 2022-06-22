@@ -1,0 +1,199 @@
+<!doctype html><!--la etiqueta doctype identifica  que el archivo sea html-->
+<html>
+     
+	<head><!--es la cabecera de la pagina,donde se pueden ingresar link o una imagen -->
+		<title>viaja mejor que nunca</title>
+		<meta charset="utf-8"/>
+		<link rel="shortcut icon" href="imagenes/logoavion.jpg" type="image/x-icon">
+
+		<!--pegar link-->
+	<link href="archivocss/estilo.css" rel ="stylesheet" > <!--href da la ruta donde se encuentra el archivo css para ponerlo bonito-->
+	</head>
+
+	<body><!--aqui muestra todo lo que sera visible al usuario-->
+			<!----------------------------------------------------------------------------------------------------------------------->
+		<!--primera sesion grande  de bloque -->
+	<header class="com-header" ><!--se crean las class que luego son utilizadas en css -->
+		<nav  class="com-nav"><!--se crea una bloque de componentes de navegacion-->
+			<div class="logo"><!--se crea una sesion o division de bloque  para incluir la marca de la aerolinea-->
+				<img src="../web/gatoooo.jpg" >
+				<span> my logo</span><!--el span va a contener el logo -->
+				<h2> travelplanet</h2><!---un pequeño titulo--->
+			</div><!--- se cierra la sesion-->
+			<ul class="stiker" >
+				<li><a href="#" class="nav_link">inicio</a></li><!--se inician las listas -->
+                <li><a href="../web/php/iniciarsesion.html">iniciar sesion </a></li><!--componente de navegacion  que al hacer clic se dirige a otra pagina-->
+				<li><a href="../web/php/registrate.html">registate</a></li><!--siguiente componente de navegacion-->
+                <li><a href="#">destinos</a></li><!---->
+			</ul>
+		</nav><!-- se cierra el bloque de navegacion-->
+			<!--------------------------------------------------------------------->
+			<!--sesion de bloque de texto-->
+		<section class="content-text">
+			<div class="reservar"></div>
+				<h2 class="viaja_barato">VIAJA BARATO</h2><!--a medida que aumenta h el tamaño de la letra va disminuyendo -->
+			<a href="#">reservar</a>
+			</div>
+		</section><!--sesion finalizada-->
+	</header>
+        
+    <main><!--fotos col-sm-->
+			<!--segunda sesion grande  de bloque-->
+		<section style="background-color : darkcyan mt=20" class="sesion2"><!--de define el color del fondo en background-->
+			<h1 class="parrafodestino">DESTINOS </h1><!-- se crea el titulo mayor  -->
+			<div class="container-sm">	
+				<div class="row"><!--fila-->
+					<div class="col-md-3"><!--- subsesion 1 de foto--><!--solo col aparecen juntas , se le asigan un numeroutilizando la clase col (sin valor) se pueden incluir todas las columnas que uno quiera,-->
+						<img src="../web/imagenes/desierto atacama.jpg" style="height: 5cm;" >
+						<!--fuente de la imagen -->
+						<div class="contenedor de texto">
+							<h3 ><span>  DESIERTO DE ATACAMA/CHILE</span></h3>
+							<p> </p><!--contiene parrafo-->
+						</div>
+					</div><!--subsesion 1 cerrada-->
+                         <!---es importante que las columnas sumen total 12-->
+                         <!--Smartphones (<768px) .col-xs-(número de columnas)
+                           Tablets (>=768px) .col-sm-(número de columnas)
+                            Desktops (>=992px) .col-md-(número de columnas)
+							Desktops (>=1200px) .col-lg-(número de columnas)
+						El 100% de la pantalla en teléfonos móviles (xs).
+768px en tabletas (sm).
+992px en pantallas de escritorio (md).
+1200px en pantallas grandes (lg).-->
+				        <!---------------------------------------------------------------->
+					<div  class="col-md-3"><!--subsesion 2 de foto-->
+						<img src="../web/imagenes/cabos san lucas.jpg " style="height: 5cm;">
+						<!--fuente de la imagen  descrito con su altura -->
+				    	<div class="contenedor de texto">
+							<h3 ><span> CABOS SAN LUCAS/MEXICO</span></h3>
+							<p>vive una experiencia unica </p><!--contiene parrafo-->
+						</div>
+					</div><!--subsesion 2 cerrada-->	
+
+
+				     <!-------------------------------------------------------------->
+					<div class="col-md-3 ">	<!--subsesion 3 de foto-->
+						<img src="../web/imagenes/salto angel.jpg" style="height: 5cm;">
+						<!--fuente de la imagen descrito con su altura  -->
+						<div class="contenedor de texto">
+							<h3 ><span> SALTO DEL  ANGEL</span></h3><!--titulo  -->
+							<p>Lorem ipsum dolor sit amet.</p><!--contiene parrafo-->
+						</div>
+					</div><!--subsesion 3 cerrada-->
+
+				
+				     <!-------------------------------------------------------------->
+					<div class="col-md-3">	<!--subsesion 4 de foto-->
+						<img src="../web/imagenes/Bosque de Bambu en Kioto.png" style="height: 5cm;">
+						<!--fuente de la imagen descrito con su altura  -->
+						<div class="contenedor de texto">
+							<h3 ><span> EL BOSQUE DE BAMBU/JAPON</span></h3><!--titulo  -->
+							<p>Lorem ipsum dolor sit amet.</p><!--contiene parrafo-->
+						</div>
+					</div><!--subsesion 4 cerrada-->
+                   
+				      <!-------------------------------------------------------------->
+					<div class="col-md-3 ">	<!--subsesion 5 de foto-->
+						<img src="../web/imagenes/los azores.jpg" style="height: 5cm;">
+						<!--fuente de la imagen descrito con su altura  -->
+						<div class="contenedor de texto">
+							<h3 ><span> LOS AZORES/PORTUGAL</span></h3><!--titulo  -->
+							<p>¿quieres ir de viaje</p><!--contiene parrafo-->
+						</div>
+					</div><!--subsesion 5 cerrada-->
+		
+				        	<!-------------------------------------------------------------->
+					<div class="col-md-3">	<!--subsesion 6 de foto--><!--fot mas grandes-->
+						<img src="../web/imagenes/The Avenue of Baobabs.png" style="height: 5cm;">
+						<!--fuente de la imagen descrito con su altura  -->
+						<div class="contenedor de texto">
+							<h3 ><span> AVENIDA DE LOS BAOBBS/MADAGASCAR</span></h3><!--titulo  -->
+							<p>Lorem i</p><!--contiene parrafo-->
+						</div>
+				    </div><!--subsesion 6 cerrada-->
+            
+				</div>
+			</div>
+		</section> <!--segunda sesion de bloque cerrada-->
+		<!----------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!--tercera sesion grande  de bloque -->
+		<section class="comentariopeople">
+			<div class="contenido" >
+				<h2 class="titulo">OFERTAS  DE TEMPORADA</h2><!--todo el bloque contendra el titulo ofertas de temporada-->
+				<div class="galeria">
+
+
+					<div class="imagenes"><!--subsesion1-->
+                		<img src="../web/imagenes/PERU10DIAS.png" alt="">
+							<p>nuestro imagen</p>
+					</div>
+
+					<div class="imagenes"><!--subsesion2-->
+                		<img  src="../web/imagenes/BARCELONAA.jpg" alt="">
+							<p>nuestro imagen</p>	
+					</div>
+
+
+
+					<div class="imagenes"><!--subsesion3-->
+                		<img  src="../web/imagenes/CHINA.jpg" alt="">
+					</div>
+				</div>
+			</div><!---->
+
+		</section><!--sesion 3 cerrada-->
+         		<!---------------------------------------------------------------------------------------------------------------------------->
+          <!--apartado de comentarios de usuario de su experiencia ,falta completar-->
+		<section>  
+			<h1 class="comentarios"> Satisfacción de los usuarios</h1>
+			<div class="cliente">
+				<div class="contenidocomentario">
+					<img src="../web/gatoooo.jpg" alt="">
+					<div class="contenido-texto1">
+						<h4 class="titulo4">name</h4>
+						<p>Lorem, ipsum dolor.</p>
+					</div>
+				</div>
+           		<div class="contenidocomentario">
+					<img src="../web/gatoooo.jpg" alt="">
+					<div class="contenido-texto1">
+						<h4 class="titulo4"> hcometarios</h4>
+						<p>Lorem ipsum dolor sit amet.</p>
+					</div>
+				</div>
+        	</div>
+		</section>
+		<div class="contenieder">
+			<ul>
+				<li><img src="../web/gatoooo.jpg" alt=""></li>
+				<li><img src="../web/imagenes/CHINA.jpg" alt=""></li>
+				<li><img src="../web/gatoooo.jpg" alt=""></li>
+				
+			</ul>
+
+		</div>
+	</main>
+	
+	
+    </body><!--termina el cuerpo(visible)-->
+	<footer class="footer">
+		<div class="pie">
+		<nav class="footer__social">
+			<a href="#" class="footer__media">
+			  <img src="../web/imagenes/facebook.svg" class="footer__icon">
+			</a>
+			<a href="#" class="footer__media">
+			  <img src="../web/icon-instagram.svg" class="footer__icon"width="20" height="20" >
+			</a>
+			<a href="#" class="footer__media">
+			  <img src="../web/imagenes/twitter.svg" class="footer__icon">
+			</a>
+			<a href="#" class="footer__media">
+			  <img src="../web/imagenes/whatsapp.svg" class="footer__icon">
+			</a>
+		  </nav>
+		<p> copyright scopy 2022 </p>
+		</div>
+	</footer>
+</thml>
